@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <h1 class="text-center fw-bold">MY PORTFOLIO</h1>
     <div class="row">
         <div class="col-md-6 my-4">
             <div class="animation1"></div>
