@@ -27,7 +27,7 @@
                           <li class="nav-item">
                               <router-link to="/profil" class="nav-link">
                               <span data-feather="file"></span>
-                              Profil
+                              Profile
                               </router-link>
                           </li>
                           <li class="nav-item">
