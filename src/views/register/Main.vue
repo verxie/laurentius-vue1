@@ -17,13 +17,13 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-6 offset-md-3 d-grid gap-1">
-                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        <router-link class="text-center btn btn-primary" :to="{name: 'login'}">SIGN UP</router-link>
                         </div>
                     </div>
                     <br>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <label class="text-center text-light fs-6">Have an account?</label>
-                        <label class="text-center text-light fs-6"><a href="#">LOGIN</a></label>
+                        <router-link class="text-center" :to="{name: 'login'}">LOGIN</router-link>
                       </div>
                   </form>
             </div>
