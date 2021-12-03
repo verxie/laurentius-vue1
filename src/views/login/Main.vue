@@ -17,7 +17,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-12 d-grid">
-                        <router-link class="text-center btn btn-primary" :to="{name: 'home'}">LOGIN</router-link>
+                        <router-link class="text-center btn btn-primary" :to="{name: 'dashboard'}">LOGIN</router-link>
                         </div>
                     </div>
                     <br>
