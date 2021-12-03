@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [{
     path: "/home",
@@ -18,6 +18,8 @@ const routes = [{
     component: () => import ('@/views/register/Main.vue')
 }];
 
-const router = createRouter({history: createWebHistory(), routes});
-
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes
+});
 export default router;
