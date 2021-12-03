@@ -40,7 +40,7 @@ animation-fill-mode: forwards;
 
 @keyframes text1 {
 from {left: -800px;}
-to {left: -30px;}
+to {left: 5px;}
 }
 
 p, h1, ul{

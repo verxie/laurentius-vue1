@@ -1,17 +1,17 @@
 <template>
   <div class="hello">
-    <h1 class="text-center fw-bold">MY PORTFOLIO</h1>
+    <h1 class="text-center mt-2 fw-bold">MY PORTFOLIO</h1>
     <div class="row">
-        <div class="col-md-6 my-4">
+        <div class="col-md-6 my-2">
             <div class="animation1"></div>
         </div>
 
         <div class="col-md-6 my-5 text-dark animation2">
             <h1 class="fw-bolder">Introduction</h1>
-            <p class="h6 fw-bold">Hey! My name is Laurentius. I am 18 years old. I graduated from Xaverius Vocational Highschool and a student at Multi Data Palembang University and I'm also working at a company that produce and sells hospital and rehabilitation product. About my hobbies, I don't have much hobbies, but I'm sure you can tell that I watch anime...from the picture on the left, I also watch YouTube videos or playing video game like Valorant</p>
+            <p class="fw-bold">Hey! My name is Laurentius. I am 18 years old. I graduated from Xaverius Vocational Highschool and a student at Multi Data Palembang University and I'm also working at a company that produce and sells hospital and rehabilitation product. About my hobbies, I don't have much hobbies, but I'm sure you can tell that I watch anime...from the picture on the left, I also watch YouTube videos or playing video game like Valorant</p>
             <hr>
             <h1 class="fw-bolder">Internship</h1>
-            <p class="h6 fw-bold">
+            <p class="fw-bold">
                 <ul>
                     <li>
                         November 2019 - February 2019 at Artha Komputer
@@ -24,7 +24,7 @@
             </p>
             <hr>
             <h1 class="fw-bolder">Achievement</h1>
-            <p class="h6 fw-bold">
+            <p class="fw-bold">
                 <ul>
                     <li>800 out of 990 TOEIC score</li>
                 </ul>
