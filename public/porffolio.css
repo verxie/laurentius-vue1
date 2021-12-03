@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(45deg, #c6ffdd, #22c1c3, #f7797d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animation1 {
+width: 500px;
+height: 715px;
+background:url(img/charaa1.png);
+position: relative;
+animation-name: portfolio;
+animation-duration: 2s;  
+animation-fill-mode: forwards;
+}
+
+@keyframes portfolio {
+from {left: -500px;}
+to {left: 80px;}
+}
+
+.animation2 {
+position: relative;
+animation-name: text1;
+animation-duration: 2s;  
+animation-fill-mode: forwards;
+}
+
+@keyframes text1 {
+from {left: -800px;}
+to {left: -30px;}
+}
+
+p, h1, ul{
+    font-family:'Courier New', Courier, monospace;
+}
