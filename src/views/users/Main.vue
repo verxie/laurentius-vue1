@@ -2,7 +2,7 @@
     <div>
         <layout-main>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Users</h1>
+                <h1 class="text-light h2">Users</h1>
             </div>
             <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-2">
                 <div v-for="user in datausers" :key="user.id" class="col card">
@@ -50,7 +50,7 @@ export default {
         }
     },    
     mounted() {
-        console.log("HALLO");
+        console.log("Laurentius");
         this.getUsers();
     }
 }
