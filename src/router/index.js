@@ -36,7 +36,17 @@ const routes = [{
     path: '/users',
     name: 'users',
     component: () => import('@/views/users/Main.vue')
-}];
+},
+{
+    path: '/users/:id/:username?',
+    name: 'detailuser',
+    component: () => import('@/views/users/DetailUser.vue')
+},
+{
+    path: '/create-user',
+    name: 'createuser',
+    component: () => import('@/views/users/FormCreate.vue')
+},];
 
 const router = createRouter({
     history: createWebHashHistory(),

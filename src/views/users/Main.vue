@@ -3,6 +3,7 @@
         <layout-main>
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="text-light h2">Users</h1>
+                <router-link class="btn btn-primary" :to="{name: 'createuser'}">Create New User</router-link>
             </div>
             <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-2">
                 <div v-for="user in datausers" :key="user.id" class="col card">
@@ -18,7 +19,7 @@
                             <strong>{{user.username}}</strong> <br>
                             {{user.email}}
                         </address>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <router-link class="text-center btn btn-primary" :to="{name: 'detailuser', params: {id: user.id, username: user.username}}">Details</router-link>
                     </div>
                 </div>
             </div>
